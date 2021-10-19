@@ -43,8 +43,32 @@ namespace _20201019_orai
                 }
             }
             Console.WriteLine(max);
-            
-            
+
+            for (int i = 0; i < tz.Length; i++)
+            {
+                if (tz[i]%2==0)
+                {
+                    Console.WriteLine(tz[i]);
+                }
+            }
+            Console.WriteLine("Rendezés:");
+            for (int i = 0; i < tz.Length; i++)
+            {
+                for (int j = 0; j < tz.Length; j++)
+                {
+                    if (tz[j]>tz[i])
+                    {
+                        tz[j] = tz[j] + tz[i];
+                        tz[i] = tz[j] - tz[i];
+                        tz[j] = tz[j] - tz[i];
+                    }
+                }
+            }
+            for (int i = 0; i < tz.Length; i++)
+            {
+                Console.WriteLine(tz[i]);
+            }
+
             Console.ReadKey();
         }
     }
