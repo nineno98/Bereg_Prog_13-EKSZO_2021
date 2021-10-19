@@ -10,6 +10,42 @@ namespace _20201019_orai
     {
         static void Main(string[] args)
         {
+            int[] t = { 1, 2, 4,5,8 };
+            int[] tz = new int[10];
+
+            for (int i = 0; i < t.Length; i++)
+            {
+                Console.WriteLine(t[i]);
+            }
+
+            Random r = new Random();
+            for (int i = 0; i < tz.Length; i++)
+            {
+                tz[i] = r.Next(1,101);
+                Console.WriteLine(tz[i]);
+            }
+            int os = 0;
+            for (int i = 0; i < tz.Length; i++)
+            {
+                os+=tz[i];
+            }
+            Console.WriteLine("Összeg: {0}",os);
+            int atl = os / tz.Length;
+            Console.WriteLine("Az atlag: {0}", atl);
+            //int max = tz.Max();
+            //Console.WriteLine("max: {0}", max);
+            int max = tz[0];
+            for (int i = 0; i < tz.Length; i++)
+            {
+                if (max < tz[i])
+                {
+                    max = tz[i];
+                }
+            }
+            Console.WriteLine(max);
+            
+            
+            Console.ReadKey();
         }
     }
 }

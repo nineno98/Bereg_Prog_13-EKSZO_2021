@@ -1,0 +1,7 @@
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\bin\Debug\20201019_orai.exe.config
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\bin\Debug\20201019_orai.exe
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\bin\Debug\20201019_orai.pdb
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\obj\Debug\20201019_orai.csproj.AssemblyReference.cache
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\obj\Debug\20201019_orai.csproj.CoreCompileInputs.cache
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\obj\Debug\20201019_orai.exe
+C:\Users\2020590\source\repos\Bereg_Prog_13-EKSZO_2021\20201019_orai\20201019_orai\obj\Debug\20201019_orai.pdb
