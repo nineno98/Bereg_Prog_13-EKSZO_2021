@@ -34,6 +34,7 @@ namespace _20201019_orai
             Console.WriteLine("Az atlag: {0}", atl);
             //int max = tz.Max();
             //Console.WriteLine("max: {0}", max);
+            //valami
             int max = tz[0];
             for (int i = 0; i < tz.Length; i++)
             {
